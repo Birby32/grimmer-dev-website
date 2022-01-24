@@ -1,0 +1,95 @@
+@media (min-width: 300px) {
+    .image-col {
+        width: 100%;
+    }
+    nav .columns {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .blog-date {
+        display: none;
+    }
+}
+@media (min-width: 750px) {
+    .image-col {
+        max-width: 100%;
+    }
+    nav .columns {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    nav .nav-item {
+        margin-left: 4% !important;
+    }
+    .blog-date {
+        display: inline-block;
+        text-align: right;
+        line-height: 4.2em;
+    }
+}
+
+.image-col {
+    box-sizing: border-box;
+    display: block;
+}
+.image-profile {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+.proj-title {
+    display: inline-block;
+    font-size: 2.0rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+nav .nav-item {
+    border-top-color: black;
+    border-top-width: 3px;
+    border-top-style: solid;
+}
+nav .nav-item:hover {
+    background-color: yellow;
+}
+nav .nav-item a {
+    border: none;
+}
+a {
+    color: black;
+    border-bottom: 1px solid black;
+    text-decoration: none;
+}
+a:hover {
+    border-bottom: none;
+}
+.active {
+    background-color: yellow;
+}
+/* for html5 */
+
+video {
+    width: 100% !important;
+    height: auto !important;
+}
+/* for vimeo and youtube */
+
+.video-player {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 0px;
+    height: 0;
+    margin-bottom: 2.5rem;
+}
+.video-player iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#main-not-found {
+  text-align: center;
+}
